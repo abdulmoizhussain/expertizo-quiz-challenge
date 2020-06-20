@@ -1,7 +1,7 @@
 :root {
   --app-border-color: #EDEDEDFF;
   --color-progress-dark: #000000FF;
-  --color-progress-medium: #717171FF;
+  --color-progress-normal: #717171FF;
   --color-progress-light: #D2D2D2FF;
 }
 
@@ -43,7 +43,7 @@ code {
 }
 
 .progress-bar.progress-normal {
-  background-color: var(--color-progress-medium) !important;
+  background-color: var(--color-progress-normal) !important;
 }
 
 .progress-bar.progress-light {
