@@ -14,8 +14,8 @@ function App() {
       <Col md={8} className="app-border d-flex flex-column">
         <Row>
           <Col className="px-0">
-            <Progress multi>
-              <Progress bar color="secondary" value={2} max={20} />
+            <Progress multi className="bg-progress-white">
+              <Progress bar color="secondary" value={15} max={20} />
             </Progress>
           </Col>
         </Row>
@@ -76,10 +76,10 @@ function App() {
                 </strong>
               </Col>
             </Row>
-            <Progress multi className="border border-dark">
-              <Progress bar className="progress-dark" value={3} max={20} />
-              <Progress bar className="progress-normal" value={2} max={20} />
-              <Progress bar className="progress-light" value={4} max={20} />
+            <Progress multi className="bg-progress-white border border-dark">
+              <Progress bar className="bg-progress-bar-dark" value={3} max={20} />
+              <Progress bar className="bg-progress-bar-normal" value={2} max={20} />
+              <Progress bar className="bg-progress-bar-light" value={4} max={20} />
             </Progress>
           </Col>
         </Row>
