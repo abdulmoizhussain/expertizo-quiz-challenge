@@ -1,4 +1,4 @@
-## app url:
+## url of deployed app:
 https://react-app-b4202.web.app
 
 <br>
