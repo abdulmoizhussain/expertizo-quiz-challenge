@@ -107,14 +107,12 @@ function App() {
               starColor="#000000"
               emptyStarColor="#CBCCCBFF"
             />
-
             <br />
             <br />
 
             <h5>{decodeURIComponent(question.question)}</h5>
 
             <br />
-
             {renderAnswers()}
 
             {answerSubmitted && <>
@@ -138,14 +136,10 @@ function App() {
           <Col md={8}>
             <Row>
               <Col className="text-left">
-                <strong>
-                  Score: {(actualScore * 100).toFixed(0)}%
-                </strong>
+                <strong>Score: {(actualScore * 100).toFixed(0)}%</strong>
               </Col>
               <Col className="text-right">
-                <strong>
-                  Max Score: {(maxScore * 100).toFixed(0)}%
-                </strong>
+                <strong>Max Score: {(maxScore * 100).toFixed(0)}%</strong>
               </Col>
             </Row>
             <Progress multi className="bg-progress-white border border-dark">
