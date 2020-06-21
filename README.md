@@ -1,5 +1,9 @@
 ## url of deployed app:
 https://react-app-b4202.web.app
+<br>
+or
+<br>
+https://react-app-b4202.firebaseapp.com/
 
 <br>
 <br>
